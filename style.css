@@ -1,6 +1,7 @@
 body {
 	margin: 0 auto;
 	width: 100%;
+	height: auto;
 	background: lightgray;
 	max-width: 1020px;
 	min-width: 480px;
@@ -14,9 +15,6 @@ header, footer {
 }
 
 /*Header styles only*/
-li {
-	color: #e5ebf2;
-}
 img.center-block {
 	height: 500px;
 }
@@ -33,11 +31,36 @@ a div.nav-link:hover{
    background-color: #6893d8;
 }
 
+/*Section styles only*/
+div.section {
+	display: block;
+	width: 50%;
+	height: 240px;
+	float: left;
+}
+article.right, article.left {
+	width: 100%;
+	padding-top: 21.5px;
+	padding-bottom: 21.5px;
+	text-align: left;
+}
+article.left {
+	padding-left: 200px;
+}
+article.right {
+	padding-right: 200px;
+}
+img.section {
+	padding: 21.5px 0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Footer styles only*/
 footer {
 	clear: both;	
 	height: auto;
-	width: 100%;
 }
 div.footer {
 	float: left;
